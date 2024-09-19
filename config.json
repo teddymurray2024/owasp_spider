@@ -1,0 +1,7 @@
+{
+  "headless": true,
+  "timeout": 30000,
+  "proxy": null,
+  "cookies": [],
+  "screenshot": true
+}

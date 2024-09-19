@@ -1,0 +1,17 @@
+{
+  "name": "owasp-crawler",
+  "version": "1.0.0",
+  "description": "Automated OWASP web vulnerability testing with Puppeteer and OpenAI.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "axios": "^1.2.0",
+    "colors": "^1.4.0",
+    "dotenv": "^10.0.0",
+    "fs-extra": "^10.0.0",
+    "pdfkit": "^0.12.1",
+    "puppeteer-core": "^13.0.1"
+  }
+}
