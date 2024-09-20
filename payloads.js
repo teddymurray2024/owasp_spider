@@ -3,7 +3,7 @@ require('dotenv').config();
 
 async function generateAdvancedPayloads() {
     const payloads = [];
-    const prompt = "Generate OWASP top 10 payloads for SQL Injection, XSS, and CSRF.";
+    const prompt = "Generate OWASP top 10 payloads for SQL Injection, XSS, and CSRF. Do not use Titles for sections. Display each payload on each line without numbers or bullet points. Do not display any extra information besides the payload itself.";
 
     try {
         const response = await axios.post('https://api.openai.com/v1/completions', {
